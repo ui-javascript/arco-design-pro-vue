@@ -1,0 +1,3 @@
+tasks:
+  - init: sudo apt-get update && sudo apt-get -y install xdg-utils && yarn install
+    command: cd arco-design-pro-vite && yarn install && npm run dev
